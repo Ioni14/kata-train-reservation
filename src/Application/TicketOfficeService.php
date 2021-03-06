@@ -5,7 +5,6 @@ namespace App\Application;
 use App\Domain\BookReference;
 use App\Domain\Reservation;
 use App\Domain\ReservationRequest;
-use App\Domain\Seat;
 
 class TicketOfficeService
 {

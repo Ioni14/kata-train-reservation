@@ -9,7 +9,6 @@ use App\Domain\Train;
 interface TrainDataProviderInterface
 {
     public function getTrain(string $trainId): Train;
-    public function getSeats(string $trainId): array;
 
     /**
      * @param Seat[] $seats
